@@ -24,6 +24,12 @@ const handleUserInput = function(key) {
     connection.write("Move: down");
   } else if (key === 'd'){
     connection.write("Move: right");
+  } else if (key === 'f'){
+    connection.write("Say: Hello friend");
+  } else if (key === 'h'){
+    connection.write("Say: I'm hungry!!");
+  } else if (key === 'c'){
+    connection.write("Say: I love cats");
   }
 };
 

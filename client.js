@@ -4,7 +4,7 @@ const { connected } = require("process");
 // establishes a connection with the game server
 const connect = function() {
   const conn = net.createConnection({
-    host: '10.3.1.225',
+    host: '10.0.0.41',
     port: 50541,
   });
 

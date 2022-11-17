@@ -15,23 +15,6 @@ const connect = function() {
     conn.write("Name: AMC");
   });
 
-  // conn.on("connect", () => {
-    // Send move instruction to server as soon as connected
-    // setTimeout(() => {
-    //   conn.write("Move: up");
-    // }, 50);
-    // setTimeout(() => {
-    //   conn.write("Move: left");
-    // }, 100);
-    // setTimeout(() => {
-    //   conn.write("Move: down");
-    // }, 150);
-    // setInterval(() => {
-    //   conn.write("Move: down");
-    // }, 50);
-    
-  // });
-
   // interpret incoming data as text
   conn.setEncoding("utf8");
 

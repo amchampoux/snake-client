@@ -3,6 +3,7 @@ const PORT = 50541;
 const NAME = 'AMC';
 
 const COMMAND = {
+  '\u0003': "exit client",
   'w': "Move: up",
   'a': "Move: left",
   's': "Move: down",

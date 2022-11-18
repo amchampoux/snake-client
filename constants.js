@@ -1,4 +1,4 @@
-const IP = '10.0.0.41';
+const IP = '10.3.1.225';
 const PORT = 50541;
 const NAME = 'AMC';
 

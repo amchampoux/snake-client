@@ -15,9 +15,8 @@ const setupInput = (conn) => {
 };
 
 const handleUserInput = function(key) {
-  if (key === '\u0003') {
+  if (COMMAND[key] === COMMAND['\u0003']) {
     process.exit();
-  // mapping command with keys
   } else if (COMMAND[key]) {
     connection.write(COMMAND[key]);
   }
